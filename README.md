@@ -1,52 +1,41 @@
-# Electronic-Circuits--RC-Phase-Shift-Oscillator
 ## AIM:
 To simulate a RC Pase Shift Oscillator and to verify the output.
+
 ## APPARATUS REQUIRED:
 PC with LT Spice software
-## CIRCUIT DIAGRAM:
-<img width="924" height="725" alt="image" src="https://github.com/user-attachments/assets/a081ef01-6014-4724-9608-acc729d06ec5" />
 
+## CIRCUIT DIAGRAM:
+<img width="1443" height="994" alt="image" src="https://github.com/user-attachments/assets/baf9e543-0e0d-4b60-97f2-21a84a079645" />
 
 ## SIMULATION PROCEDURE:
-1.	Open the Ltspice software
-2.	
-3.	FileNew Schematic
-4.	
-5.	Click component symbol  to browse and select the components
-6.	
-7.	Click OK and place the component
-8.	
-9.	Search for resistor from component menu or from the tab icons
-10.	
-11.	Place the resistors
-12.	
-15.	Use ctrl + R to rotate the components
-16.	
-17.	Use wire symbol  to connect the components as per the circuit diagram
-18.	
-19.	Right click each components to give the values
-20.	
-21.	Use run button  to run the simulation
-22.	
-23.	Set the step time and click ok
-24.	
-25.	Output dialog box will open
-26.	
-27.	In the output dialog box right click and select add traces
-28.	
-29.	Node voltages and current of each components names will be displayed.
-30.	
-31.	Select the required node voltages (V(n001)) to get the waveforms.
-32.	
-33.	To get the voltage across a component the name of the trace should represent both the nodes. example V(n001,n002))
 
-34.	## THEORITICAL CALCULATION:
-35.	![WhatsApp Image 2025-11-23 at 16 26 04_14745759](https://github.com/user-attachments/assets/4efc0e95-692c-4854-bcca-19ea2d16ce00)
+1.	Open the Ltspice software.<br>  
+2.	File  New Schemati.c<br> 
+3.	Click component symbol  to browse and select the components.<br> 
+4.	Find the diode or diodes from the component list and place them.<br> 
+5.	Click OK and place the component.<br> 	
+6.	Search for resistor from component menu or from the tab icons.<br> 
+7.	Place the resistors.<br> 
+8.	Search for capacitor from the component menu or from the tab icons.<br> 
+9.	Place the capacitors.<br> 
+10.	Use ctrl + R to rotate the components.<br> 
+11.	Use wire symbol  to connect the components as per the circuit diagram.<br> 
+12.	Right click each components to give the values.<br> 	
+13.	Use run button  to run the simulation.<br> 
+14.	Set the step time and click ok.<br> 
+15.	Output dialog box will open.<br> 
+16.	In the output dialog box right click and select add traces.<br> 
+17.	Node voltages and current of each components names will be displayed.<br> 
+18.	Select the required node voltages (V(n001)) to get the waveforms.<br> 
+19.	To get the voltage across a component the name of the trace should represent both the nodes. example V(n001,n002)).<br> 
 
-36.	
-37.	## OUTPUTS:
-38.	![WhatsApp Image 2025-11-23 at 16 27 21_5388a0b3](https://github.com/user-attachments/assets/62099d7b-28a1-4b08-89fb-32753f1fd06c)
+## THEORITICAL CALCULATION:
+<img width="899" height="1599" alt="WhatsApp Image 2026-06-10 at 12 58 33" src="https://github.com/user-attachments/assets/55da3063-057e-4415-9e6b-7548fba654c2" />
+<img width="899" height="1599" alt="WhatsApp Image 2026-06-10 at 12 59 01" src="https://github.com/user-attachments/assets/f6cd5c96-eb0e-4249-858b-513192780604" />
 
+## OUTPUTS:
+<img width="1917" height="1133" alt="image" src="https://github.com/user-attachments/assets/f7886af8-662d-46ba-8c62-c264b3c8378e" />
 
-39.	## RESULT:
-![photo_2025-12-02_11-13-57](https://github.com/user-attachments/assets/35d71baf-6eee-4eb3-9832-4de602b73ff9)
+## RESULT:
+<img width="1600" height="720" alt="WhatsApp Image 2026-06-10 at 12 43 43" src="https://github.com/user-attachments/assets/8ce35e93-5c74-40cc-9f83-bc88563a546f" />
+
